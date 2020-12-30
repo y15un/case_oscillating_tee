@@ -5,7 +5,9 @@ A TEe-cOpYcAt tHAt rAndoMLy ChaNgEs EaCh cHarACtEr'S CAse
 ```
 $ cargo install --path .
 ```
-you may substitute the dot with actual path you wish to install the binary to.
+you may add `--root [INSTALL_HERE]` option with the actual path you wish to
+install the binary to, instead of default `~/.cargo/bin`.
+please read `cargo help install` before proceeding, tho.
 
 ## usage
 ```
@@ -15,6 +17,7 @@ good morning star shine, the earth says hello!
 $ cat willy_wonka.txt
 GoOd MOrNiNg sTar sHiNE, THe eArtH sAYs HeLlO!
 ```
+(fyi: i got the idea from [this video](https://youtu.be/webDhBtBchY?t=64))
 
 ## license
 mit
