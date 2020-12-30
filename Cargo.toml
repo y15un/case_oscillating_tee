@@ -1,0 +1,14 @@
+[package]
+name = "case_oscillating_tee"
+version = "0.1.0"
+authors = ["ylsun <y15un@y15un.dog>"]
+description = "A TEe-cOpYcAt tHAt rAndoMLy ChaNgEs EaCh cHarACtEr'S CAse"
+edition = "2018"
+repository = "https://github.com/y15un/case_oscillating_tee"
+license = "MIT"
+
+[dependencies]
+oscillating_case = { path = "lib" }
+
+[workspace]
+members = ["lib"]

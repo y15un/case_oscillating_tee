@@ -1,0 +1,12 @@
+[package]
+name = "oscillating_case"
+version = "0.1.0"
+authors = ["ylsun <y15un@y15un.dog>"]
+description = "tHe aCtuAl lIbrArY ThAt raNdOmLy ChaNgEs EaCh ChARActEr'S CaSe"
+edition = "2018"
+repository = "https://github.com/y15un/case_oscillating_tee"
+license = "MIT"
+
+[dependencies]
+rand = { version = "0.7" } # MIT / using 0.7 for `tinymt` compat
+tinymt = { version = "1.0" } # MIT
